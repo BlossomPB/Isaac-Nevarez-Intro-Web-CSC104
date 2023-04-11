@@ -4,7 +4,7 @@ body {
 
 
 
-
+    /* <Title section of page that holds logo and page title> */
 .pageStart {
     background-color: rgba(156, 148, 130, 0.788);
     text-align: center;
@@ -33,7 +33,7 @@ body {
 
 
 
-
+    /* <Main section of the page that holds content box and side menu container> */
 .bodyContent {
     background-color: rgba(156, 148, 130, 0.788);
     box-sizing: border-box;
@@ -43,7 +43,7 @@ body {
     margin-top: 2%;
 }
 
-
+        /* <Creates the container for side menu buttons> */
     .sideBarMenu {
         background-color: rgba(122, 116, 102, 0.911);
         width: 10%;
@@ -70,7 +70,7 @@ body {
             margin-top: 50%;
         }
 
-
+        /* <Content box for main content of the page> */
     .bodyAboutContent {
         background-color: rgba(122, 116, 102, 0.911);
         font-size: 350%;
