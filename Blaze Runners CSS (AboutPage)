@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(156, 148, 130, 0.425);
+}
+
+
+
+
+.pageStart {
+    background-color: rgba(156, 148, 130, 0.788);
+    text-align: center;
+    display: flex;
+    font-size: 50px;
+    padding: 9px;
+}
+
+    .pageTitle {
+        background-color: rgba(0, 0, 0, 0);
+        box-sizing: border-box;
+        border-style: double;
+        padding: 40px;
+        margin: auto;
+        margin-left: 30%;
+        margin-right: 30%;
+        display: inline;
+    }
+
+    .pageLogoImage {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        display: inline;
+    }
+
+
+
+
+.bodyContent {
+    background-color: rgba(156, 148, 130, 0.788);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+
+    .sideBarMenu {
+        background-color: rgba(122, 116, 102, 0.911);
+        width: 10%;
+        height: 450px;
+        padding: 2%;
+    }
+        .aboutSideBarButton {
+            background-color: rgba(128, 168, 110, 0.911);
+            width: 100%;
+            height: 20%;
+        }
+
+        .levelSideBarButton {
+            background-color: rgba(168, 162, 110, 0.911);
+            width: 100%;
+            height: 20%;
+            margin-top: 50%;
+        }
+
+        .blogSideBarButton {
+            background-color: rgba(168, 124, 110, 0.911);
+            width: 100%;
+            height: 20%;
+            margin-top: 50%;
+        }
+
+
+    .bodyAboutContent {
+        background-color: rgba(122, 116, 102, 0.911);
+        font-size: 350%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(235, 225, 204, 0.911);
+        width: 50%;
+        height: 800px;
+        padding: 1%;
+        margin: auto;
+    }
