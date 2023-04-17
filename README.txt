@@ -1,5 +1,14 @@
 # Isaac-Nevarez-Intro-Web-CSC104
 
-  -< For CSS (About Page) >-
-    A simple explanation of the output of the CSS is making 2 big sections. One of the sections include a title and logo;
-  while the next section include side menu button placments along with a content box for about the game.
+  -< For CSS File >-
+    Its been updated to include buttons and styling them; though sizing for the buttons need a little bit of work.
+
+  -< For About Page File >-
+    Its also been updated to hold buttons and make them funcitonal. Styling is where I want it for that page however
+  its a different story for the other pages.
+  
+  -< For Level Info File >-
+    Its the same as About page still WIP for styling
+
+  -< For Blog File >-
+    Its the same as About page still WIP for styling
