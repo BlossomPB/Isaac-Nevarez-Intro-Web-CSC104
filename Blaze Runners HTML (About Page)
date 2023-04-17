@@ -33,19 +33,24 @@
         <!--Menu Container-->
         <div class="sideBarMenu">
 
-            <!--About Button-->
-            <div class="aboutSideBarButton">
+            <!--Menu Title Text-->
+            <div class="textSideBarFrame">
+                MENU
+            </div>
 
+            <!--About Button-->
+            <div class="aboutSideBarFrame">
+                <button class="aboutSideBarButton" onclick="onAboutClick()"> About Page </button>
             </div>
 
             <!--Level Blog Button-->
-            <div class="levelSideBarButton">
-
+            <div class="levelSideBarFrame">
+                <button class="levelSideBarButton" onclick="onLevelInfoClick()"> Level Info </button>
             </div>
 
             <!--Blog Post Button-->
-            <div class="blogSideBarButton">
-
+            <div class="blogSideBarFrame">
+                <button class="blogSideBarButton" onclick="onBlogClick()"> Our <br> Blog </button>
             </div>
 
         </div>
@@ -55,6 +60,23 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi optio, eveniet unde, error praesentium nostrum quas odit minus temporibus eaque incidunt dolore possimus ipsum porro quaerat, itaque quae excepturi? Assumenda.
         </div>
     </div>
+
+
+        <!--Scripts for menu button clicks to lead you to another page-->
+        <script>
+            function onAboutClick() {
+                    document.location.href = "mainPage.html"
+                }
+
+                function onLevelInfoClick() {
+                    document.location.href = "levelInfoPage.html"
+                }
+
+                function onBlogClick() {
+                    document.location.href = "blogPage.html"
+                }
+        </script>
+
 
 
 </body>
