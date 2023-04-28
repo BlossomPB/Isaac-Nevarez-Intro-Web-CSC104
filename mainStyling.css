@@ -15,19 +15,17 @@ body {
 
     .pageTitle {
         background-color: rgba(0, 0, 0, 0);
-        box-sizing: border-box;
+        box-sizing:content-box;
         border-style: double;
         padding: 40px;
-        margin: auto;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin: 0px 10% 0px 31%;
         display: inline;
     }
 
     .pageLogoImage {
-        width: 100px;
-        height: 100px;
-        margin: auto;
+        width: 200px;
+        height: 150px;
+        margin: 0px 1% 0px 0px;
         display: inline;
     }
 
@@ -49,6 +47,7 @@ body {
         width: 10%;
         height: auto;
         padding: 2%;
+        margin: 0% 3% 0% 0%;
         font-size: 25px;
         color: rgba(235, 225, 204, 0.911);
     }
@@ -59,7 +58,7 @@ body {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 50px;
             width: 100%;
-            height: 8%;
+            height: auto;
         }
 
 
@@ -136,14 +135,131 @@ body {
                     border-radius: 10%;
                     cursor: pointer;
             }
-        /* <Content box for main content of the page> */
+        /* <Content box for content of the page> */
+    /* main Page Content*/
     .bodyAboutContent {
-        background-color: rgba(122, 116, 102, 0.911);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        .aboutContentText{
+            /* Box Edit */
+            background-color: rgba(122, 116, 102, 0.911);
+            width: 50%;
+            height: auto;
+            padding: 1%;
+            margin: auto;
+
+            /* Text Edit */
+            color: rgba(235, 225, 204, 0.911);
+            font-size: 350%;
+        }
+        .aboutContentContact{
+            /* Box Edit */
+            background-color: rgba(122, 116, 102, 0.911);
+            margin: 2% 80% 1% 3%;
+            width: fit-content;
+            padding: 1%;
+
+            /* Text Edit */
+            color: rgba(235, 225, 204, 0.911);
+            font-size: 150%;
+        }
+
+    /* Game Info Page Content*/
+    .bodyGameInfoContent{
+        /* Box Edit */
+        margin: 0% 2.5% 1% 2.5%;
+        align-content: right;
+        /* Text Edit */
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    } 
+
+        .sectionTitle{ 
+            /* Box Edit */
+            background-color: rgba(162, 114, 67, 0);
+            margin: 0% 30% 0% 30%;
+            padding: 2% 1% 2% 1%;
+            border-radius: 20px;
+
+            /* Text Edit */
+            color: rgba(235, 225, 204, 0.911);
+            font-weight: 1000;
+            font-size: 500%;
+        }
+            .sectionBrief{
+                /* Box Edit */
+                background-color: rgb(194, 184, 159);
+                margin: 3% 7% 0% 7%;
+                padding: 1% 0% 1% 0%;
+                border: 3px solid black;
+                border-radius: 20px;
+
+                /* Text Edit */
+                color: rgba(65, 61, 50, 0.911);
+                font-size: 205%;
+            }
+                .sectionSubTitle{
+                    /* Box Edit */
+                        background-color: rgb(194, 184, 159);
+                        margin: 3% 80% 0% 0%;
+                        padding: 1% 0% 1% 0%;
+                        border: 3px solid black;
+                        border-radius: 20px;
+                    
+                        /* Text Edit */
+                        color:rgba(65, 61, 50, 0.911);
+                        font-size: 165%;
+                }
+                    .sectionMainContent{
+                        /* Box Edit */
+                        background-color: rgba(122, 116, 102, 0.911);
+                        margin: 1% 0% 4% 3%;
+                        padding: 1% 2.1% 3% 2.1%;
+                        border-radius: 10px;
+
+                        /* Text Edit */
+                        color: rgba(235, 225, 204, 0.911);
+                        font-size: 200%;    
+                    }
+
+    /* blog Page Content*/
+    .bodyBlogContent {
+        /*background-color: rgba(122, 116, 102, 0.911); */
         font-size: 350%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: rgba(235, 225, 204, 0.911);
-        width: 50%;
-        height: 800px;
-        padding: 1%;
-        margin: auto;
+        
+        margin: 3% 6% 3% 6%;
     }
+        .blogContentTable {
+            width: fit-content;
+        }
+            .blogContentTableRow {
+                background-color: rgba(99, 68, 53, 0.103);
+                border-radius: 20px;
+            }
+                .blogContentTableMainCell {
+                    /* Box Edit */
+                    border-radius: 20px;
+                    background-color: rgba(162, 114, 67, 0.911);
+                    padding: 20px 10px 20px 10px;
+                    margin: 7% 7% 2.4% 7%;
+                    cursor: pointer;
+
+                    /* Text Edit */
+                    color: rgba(235, 225, 204, 0.911);
+                    font-size: 50px;
+                    flex-wrap: wrap;
+                    word-wrap: break-word;
+                }
+
+                .blogContentTableVersionCell{
+                    /* Box Edit */
+                    border-radius: 10px;
+                    background-color: rgba(92, 75, 58, 0.588);
+                    margin: 0% 32% 7% 32%;
+                    
+
+                    /* Text Edit */
+                    color: rgb(216, 201, 179);
+                    font-size:small;
+                }
