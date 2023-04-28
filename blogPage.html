@@ -16,12 +16,12 @@
 
         <!--Logo-->
         <div class="pageLogoImage">
-            <img src="images/blosPlaceHolder.png" alt="place holder logo" style="width:100px;height:100px;">
+            <img src="images/BRLogo2.png" alt="place holder logo" style="width:200px;height:150px;">
         </div>
 
         <!--Page Title-->
         <div class="pageTitle">
-            Level Info Page
+            Our Blog!
         </div>
 
     </div>
@@ -45,7 +45,7 @@
 
             <!--Level Blog Button-->
             <div class="levelSideBarFrame">
-                <button class="levelSideBarButton" onclick="onLevelInfoClick()"> Level Info </button>
+                <button class="levelSideBarButton" onclick="onLevelInfoClick()"> Game Info </button>
             </div>
 
             <!--Blog Post Button-->
@@ -56,8 +56,19 @@
         </div>
 
         <!--Content Of Container-->
-        <div class="bodyAboutContent">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi optio, eveniet unde, error praesentium nostrum quas odit minus temporibus eaque incidunt dolore possimus ipsum porro quaerat, itaque quae excepturi? Assumenda.
+        <div class="bodyBlogContent">
+            <table class="blogContentTable">
+                <tr class="blogContentTableRow">
+                    <td> <div class="blogContentTableMainCell">First Release!</div> <div class="blogContentTableVersionCell">v1.0.0</div> </td>
+                    <td> <div class="blogContentTableMainCell">Revamped Settings</div> <div class="blogContentTableVersionCell">v1.0.1</div> </td>
+                    <td> <div class="blogContentTableMainCell">Bug Fixes</div> <div class="blogContentTableVersionCell">v1.0.2</div> </td>
+                </tr>
+                <tr class="blogContentTableRow">
+                    <td> <div class="blogContentTableMainCell">Level Changes</div> <div class="blogContentTableVersionCell">v1.0.3</div> </td>
+                    <td> <div class="blogContentTableMainCell">New World!</div> <div class="blogContentTableVersionCell">v1.1.0</div> </td>
+                    <td> <div class="blogContentTableMainCell">Bug Fixes</div> <div class="blogContentTableVersionCell">v1.1.1</div> </td>
+                </tr>
+            </table>
         </div>
     </div>
 
@@ -69,7 +80,7 @@
                 }
 
                 function onLevelInfoClick() {
-                    document.location.href = "levelInfoPage.html"
+                    document.location.href = "gameInfoPage.html"
                 }
 
                 function onBlogClick() {
