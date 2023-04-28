@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="mainStyling.css">
+    <title>Blaze Runners</title>
+    
+</head>
+
+<body>
+
+    <!--Page Starters-->
+    <div class="pageStart">
+
+        <!--Logo-->
+        <div class="pageLogoImage">
+            <img src="images/BRLogo2.png" alt="place holder logo" style="width:200px;height:150px;">
+        </div>
+
+        <!--Page Title-->
+        <div class="pageTitle">
+            Game Info Page
+        </div>
+
+    </div>
+
+
+    <!--Main Page Content-->
+    <div class="bodyContent">
+
+        <!--Menu Container-->
+        <div class="sideBarMenu">
+
+            <!--Menu Title Text-->
+            <div class="textSideBarFrame">
+                MENU
+            </div>
+
+            <!--About Button-->
+            <div class="aboutSideBarFrame">
+                <button class="aboutSideBarButton" onclick="onAboutClick()"> About Page </button>
+            </div>
+
+            <!--Level Blog Button-->
+            <div class="levelSideBarFrame">
+                <button class="levelSideBarButton" onclick="onLevelInfoClick()"> Game Info </button>
+            </div>
+
+            <!--Blog Post Button-->
+            <div class="blogSideBarFrame">
+                <button class="blogSideBarButton" onclick="onBlogClick()"> Our <br> Blog </button>
+            </div>
+
+        </div>
+
+        <!--Content Of Container-->
+        <div class="bodyGameInfoContent">
+            <div class="sectionTitle"> Level Info </div>
+                <div class="sectionBrief">
+                    Levels are the challenges of the game, but every level can be different from the next.
+                    So this section talks about how they can be different, and what challenge they can offer you!
+                </div>
+                    <div class="sectionSubTitle"> Easy Levels</div>
+                        <div class="sectionMainContent">
+                            
+                        </div>
+                    <div class="sectionSubTitle"> Medium Levels</div>
+                        <div class="sectionMainContent">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad, libero cumque in tenetur fuga vitae quo commodi
+                        magnam nam vero dolores laudantium facilis sed natus tempore quidem laborum repellendus!
+                        </div>
+                    <div class="sectionSubTitle"> Hard Levels</div>
+                        <div class="sectionMainContent">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad, libero cumque in tenetur fuga vitae quo commodi
+                        magnam nam vero dolores laudantium facilis sed natus tempore quidem laborum repellendus!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad, libero cumque in tenetur fuga vitae quo commodi
+                        magnam nam vero dolores laudantium facilis sed natus tempore quidem laborum repellendus!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad, libero cumque in tenetur fuga vitae quo commodi
+                        magnam nam vero dolores laudantium facilis sed natus tempore quidem laborum repellendus!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad, libero cumque in tenetur fuga vitae quo commodi
+                        magnam nam vero dolores laudantium facilis sed natus tempore quidem laborum repellendus!
+                        </div>
+        </div>
+    </div>
+
+
+        <!--Scripts for menu button clicks to lead you to another page-->
+        <script>
+            function onAboutClick() {
+                    document.location.href = "mainPage.html"
+                }
+
+                function onLevelInfoClick() {
+                    document.location.href = "gameInfoPage.html"
+                }
+
+                function onBlogClick() {
+                    document.location.href = "blogPage.html"
+                }
+        </script>
+
+
+
+</body>
+
+</html>
