@@ -1,4 +1,5 @@
 body {
+    /* Box Edit */
     background-color: rgba(156, 148, 130, 0.425);
 }
 
@@ -6,6 +7,7 @@ body {
 
     /* <Title section of page that holds logo and page title> */
 .pageStart {
+    /* Box Edit */
     background-color: rgba(156, 148, 130, 0.788);
     text-align: center;
     display: flex;
@@ -14,6 +16,7 @@ body {
 }
 
     .pageTitle {
+        /* Box Edit */
         background-color: rgba(0, 0, 0, 0);
         box-sizing:content-box;
         border-style: double;
@@ -23,6 +26,7 @@ body {
     }
 
     .pageLogoImage {
+        /* Box Edit */
         width: 200px;
         height: 150px;
         margin: 0px 1% 0px 0px;
@@ -33,6 +37,7 @@ body {
 
     /* <Main section of the page that holds content box and side menu container> */
 .bodyContent {
+    /* Box Edit */
     background-color: rgba(156, 148, 130, 0.788);
     box-sizing: border-box;
     text-align: center;
@@ -43,26 +48,36 @@ body {
 
         /* <Creates the container for side menu buttons> */
     .sideBarMenu {
+        /* Box Edit */
         background-color: rgba(122, 116, 102, 0.911);
         width: 10%;
         height: auto;
         padding: 2%;
         margin: 0% 3% 0% 0%;
         font-size: 25px;
+        
+
+        /* Text Edit */
         color: rgba(235, 225, 204, 0.911);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        text-decoration: none;
     }
 
 
         .textSideBarFrame {
+            /* Box Edit */
             background-color: rgba(156, 148, 130, 0.788);
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 50px;
             width: 100%;
             height: auto;
+
+            /* Text Edit */
+            font-size: 50px;
         }
 
 
         .aboutSideBarFrame {
+            /* Box Edit */
             background-color: rgba(156, 148, 130, 0.5);
             width: auto;
             height: auto;
@@ -70,25 +85,26 @@ body {
             border-radius: 10%;
         }
             .aboutSideBarButton {
+                /* Box Edit */
                 background-color: rgb(194, 184, 159);
-                    color: rgba(253, 246, 229, 0.884);
-                    border: none;
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    text-align: center;
-                    text-decoration: none;
-                    font-size: 30px;
-                    display: inline;
-                    margin: 4%;
-                    padding: 9px;
-                    border: black;
-                    border-radius: 10%;
-                    border-width: 100px;
-                    flex-wrap: inherit;
-                    cursor: pointer;
+                border: none; 
+                display: inline;
+                margin: 4%;
+                padding: 9px;
+                border: black;
+                border-radius: 10%;
+                border-width: 100px;
+                flex-wrap: inherit;
+                cursor: pointer;
+                    
+                /* Text Edit */
+                color: rgba(253, 246, 229, 0.884);
+                font-size: 30px;
             }
 
 
         .levelSideBarFrame {
+            /* Box Edit */
             background-color: rgba(156, 148, 130, 0.5);
             width: auto;
             height: auto;
@@ -96,23 +112,24 @@ body {
             border-radius: 10%;
         }
             .levelSideBarButton {
+                /* Box Edit */
                 background-color: rgb(194, 184, 159);
-                    color: rgba(253, 246, 229, 0.884);
-                    border: none;
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    text-align: center;
-                    text-decoration: none;
-                    font-size: 30px;
-                    display: inline;
-                    margin: 4%;
-                    padding: 9px;
-                    border: black;
-                    border-radius: 10%;
-                    cursor: pointer;
+                border: none;
+                display: inline;
+                margin: 4%;
+                padding: 9px;
+                border: black;
+                border-radius: 10%;
+                cursor: pointer;
+
+                /* Text Edit */
+                color: rgba(253, 246, 229, 0.884);
+                font-size: 30px;
             }
 
 
         .blogSideBarFrame {
+            /* Box Edit */
             background-color: rgba(156, 148, 130, 0.5);
             width: auto;
             height: auto;
@@ -120,20 +137,20 @@ body {
             border-radius: 10%;
         }
             .blogSideBarButton {
+                /* Box Edit */
                 background-color: rgb(194, 184, 159);
-                    color: rgba(253, 246, 229, 0.884);
-                    border: none;
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    text-align: center;
-                    text-decoration: none;
-                    font-size: 30px;
-                    display: inline;
-                    margin: 4%;
-                    width: 92%;
-                    padding: 9px;
-                    border: black;
-                    border-radius: 10%;
-                    cursor: pointer;
+                border: none;
+                display: inline;
+                margin: 4%;
+                width: 92%;
+                padding: 9px;
+                border: black;
+                border-radius: 10%;
+                cursor: pointer;
+
+                /* Text Edit */
+                color: rgba(253, 246, 229, 0.884);
+                font-size: 30px;
             }
         /* <Content box for content of the page> */
     /* main Page Content*/
